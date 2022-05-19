@@ -40,8 +40,22 @@ h1{
     font-weight: bold;
     text-decoration: none;
     color: black;
+    margin-right: 10px;
+    border: 2px solid white;
+    border-radius: 15px;
 
 }
+
+.header-link a:hover{
+    background-color: white;
+    color: black;
+}
+
+.header-link a:active{
+    background-color: white;
+    color: orange;
+}
+
 
 .center{
     background-color: blanchedalmond;
